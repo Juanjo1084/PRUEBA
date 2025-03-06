@@ -1,0 +1,52 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 10px;
+}
+
+.card img {
+    width: 40px;
+    border-radius: 50px;
+}
+.header {
+    display: flex;
+    gap: 10px;
+}
+
+.header span {
+    opacity: 0.5;
+}
+
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+
+.footer .btn,
+.footer .btn-following {
+    cursor: pointer;
+    color: black;
+    border-radius: 30px;
+    border: none;
+    padding: 8px 20px;
+    font-size: 15px;
+    font-weight: bolder;
+    transition: ease-in-out 200ms;
+}
+
+.footer .btn:hover {
+    background: rgb(38, 110, 204);
+    color: white;
+}
+
+.btn-following:hover {
+    background: rgb(255, 0, 0);
+    color: white;
+}
